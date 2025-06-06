@@ -76,8 +76,8 @@ const AboutApproach = () => {
                   </div>
                   {/* Text Content - Left Side */}
                   <div className="p-12 flex flex-col justify-center">
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">{slide.title}</h3>
-                    <p className="text-gray-600">{slide.description}</p>
+                    <h3 className="text-[30px] font-bold text-gray-800 mb-4">{slide.title}</h3>
+                    <p className="text-[#4a4a4a] uppercase">{slide.description}</p>
                   </div>
 
 

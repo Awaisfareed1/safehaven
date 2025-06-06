@@ -251,19 +251,19 @@ const ContactForm = () => {
                 </div>
               </div>
               
-              <div className="flex items-start border-b border-black">
+              {/* <div className="flex items-start border-b border-black">
                 <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0 mb-4" />
                 <div className="ml-4 md:flex justify-between items-center w-full ">
                   <h4 className="font-medium text-gray-900 mb-3 md:mb-0">Address</h4>
                   <p className="text-gray-600">2801 Ellis Way, Warrington, PA 18976</p>
                 </div>
-              </div>
+              </div> */}
               
               <div className="flex items-start border-b border-black">
                 <Phone className="h-5 w-5 text-primary mt-1 flex-shrink-0 mb-4" />
                 <div className="ml-4 md:flex justify-between items-center w-full">
                   <h4 className="font-medium text-gray-900 mb-3 md:mb-0">Dial</h4>
-                  <p className="text-gray-600">(267)-644-9955</p>
+                  <Link href="tel:+91 (302)-521-2308" className="text-gray-600">(302)-521-2308</Link>
                 </div>
               </div>
               
@@ -271,7 +271,7 @@ const ContactForm = () => {
                 <Mail className="h-5 w-5 text-primary mt-1 flex-shrink-0 mb-4" />
                 <div className="ml-4 md:flex justify-between items-center w-full">
                   <h4 className="font-medium text-gray-900 mb-3 md:mb-0">E-mail</h4>
-                  <p className="text-gray-600">contact@wealthguard.biz</p>
+                  <Link href="mailto:wisdom4safetynet@gmail.com" className="text-gray-600">wisdom4safetynet@gmail.com</Link>
                 </div>
               </div>
             </div>
