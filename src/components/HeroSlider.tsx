@@ -13,14 +13,14 @@ const HeroSlider = () => {
       subtitle: "Agency Studio",
       description: "Unparalleled consulting services designed to protect, grow, and preserve your wealth.",
       button1: "Partner with Us",
-      backgroundImage: "/images/slide1.jpg",
+      backgroundImage: "/images/heroslider.jpg",
       alt: "/images/heroslider.jpg"
     },{
       title: "If You Have the Dream, We Have the Financial Vehicle.",
       subtitle: "Agency Studio",
       description: "Join a risk-free business opportunity with Safe Haven Financial Group.",
       button1: "Partner with Us",
-      backgroundImage: "/images/slide1.jpg",
+      backgroundImage: "/images/heroslider.jpg",
       alt: "/images/heroslider.jpg"
     }
   ];
